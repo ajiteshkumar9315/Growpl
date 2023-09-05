@@ -12,9 +12,9 @@ const Navbar = () => {
       <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
       <button className="btn btn-outline-success" type="submit">Search</button>
     </form>
-    <button className="btn btn-outline-success"> Hello,Sign in <br />Account & List</button>
-    <button className="btn btn-outline-success"> Return <br />& Order</button>
-    <button className="btn btn-outline-success"> icon</button>
+    <button className="btn btn-outline-success"> Namaste,Sign in <br />Account & List</button>
+    <button className="btn btn-outline-success"> Order <br />& Return</button>
+    <button className="btn btn-outline-success"> Products</button>
   </div>
 </nav>
     </div>

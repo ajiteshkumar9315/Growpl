@@ -4,10 +4,10 @@ import{
   Routes,
   Route
 } from "react-router-dom";
-import Navbar from './content/Navbar';
-import Home from './content/Home';
-import About from './content/About';
-import Services from './content/Services';
+import Navbar from './Component/Navbar';
+import Home from './Component/Home';
+import About from './Component/About';
+import Services from './Component/Services';
 
 function App() {
   return (
