@@ -1,7 +1,9 @@
+import React from 'react'
 
-
-<>
-<div class="container">
+const Content = () => {
+  return (
+    <>
+      <div class="container">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active ">
@@ -11,7 +13,7 @@
           <img src="../images/fitness2,1.avif" class="d-block w-100" alt="..." height="500px" width="500px"/><h3 class="imag">Flowerpot</h3>
         </div>
         <div class="carousel-item">
-          <img src="../images/fitness2,2.jpg" class="d-block w-100" alt="..." height="500px" width="500px"/><h3 class="imag">Fertilizers</h3>
+          <img src="../images/fitness2,2.jpg" class="d-block w-100" alt="..." height="500px" width="500px"/><h3 class="imag">Fertilizers/pesticide</h3>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -25,28 +27,32 @@
     </div>
   </div>
 
-{/* section2 */}
-  <div className="container">
-    <h3>Hot Selling Plants</h3>
-</div>
+    {/* section2 */}
+      <div className="container">
+        <h3>Hot Selling Plants</h3>
+    </div>
 
-{/* section3 */}
-<div className="container">
-    <h3>Herbal Plants</h3>
-</div>
+    {/* section2.2 */}
+    <div className="container">
+        <h3>Common Plants</h3>
+    </div>
 
-{/* section4 */}
-<div className="container">
-    <h3>Flower Plants</h3>
-</div>
+    {/* section2.3 */}
+    <div className="container">
+        <h3>Decorative Plants</h3>
+    </div>
 
-{/* section5 */}
-<div className="container">
-    <h3>Vegetable Plants</h3>
-</div>
+    {/* section2.4 */}
+    <div className="container">
+        <h3>Fertilizers/pesticide</h3>
+    </div>
 
-{/* section6 */}
-<div className="container">
-    <h3>Fruits Plants</h3>
-</div>
-</>
+    {/* section2.5 */}
+    <div className="container">
+        <h3>Flowerpot</h3>
+    </div>
+    </>
+  )
+}
+
+export default Content

@@ -4,7 +4,8 @@ import{
   Routes,
   Route
 } from "react-router-dom";
-import Navbar from './Component/Navbar';
+import Navbar from './Component/Navbar/Navbar';
+import Content from './Component/Content/Content';
 import Home from './Component/Home';
 import About from './Component/About';
 import Services from './Component/Services';
@@ -21,9 +22,9 @@ function App() {
           </Route>
           <Route exact path="/Services" element={<Services/>}>
           </Route>
-        
       </Routes>
     </Router>
+    <Content/>
     </>
   );
 }
