@@ -9,11 +9,13 @@ const Plants = () => {
         {/* section2 */}
         <div className="container">
           <h3>Hot Selling Plants</h3>
+        
         </div>
 
         {/* section2.2 */}
         <div className="container">
           <h3>Common Plants</h3>
+          
         </div>
 
                 {/* section3 */}
