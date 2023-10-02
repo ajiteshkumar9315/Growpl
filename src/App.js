@@ -9,6 +9,7 @@ import Content from './Component/Content/Content';
 import Home from './Component/Home';
 import About from './Component/About';
 import Services from './Component/Services';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       </Routes>
     </Router>
     <Content/>
+    <br />
+    <Footer/>
     </>
   );
 }

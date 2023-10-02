@@ -1,0 +1,159 @@
+.foot{
+    display: flex;
+    position: absolute;
+    /* top: 340rem; */
+    background-color: rgb(54, 52, 52);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foo-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 17rem;
+    margin-top: 40px;
+}
+
+.foo-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* margin-left: 17rem; */
+    margin-top: 40px;
+}
+
+.foo-img{
+border-radius: 50%;
+}
+
+.container1{
+    width: 25%;
+    color: white;
+    margin-left: -11px;
+    margin-top: 30px;
+}
+
+.menu{
+    position: relative;
+    right: 47rem;
+    color: white;
+}
+
+.upvc{
+    position: relative;
+    right: 37rem;
+    color: white;
+    top: -11.5rem;
+}
+
+.system{
+    position: relative;
+    right: 22rem;
+    color: white;
+    top: -27.5rem;
+    
+}
+
+.contact{
+    position: relative;
+    right: 3rem;
+    color: white;
+    top: -37.5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.foot-icon1{
+    transform: scale(2);
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    top: 34rem;
+    color: white;
+    left: 18rem;
+    width: 19px;
+    height: 19px;
+    background-color: black;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.foot-icon2{
+    transform: scale(2);
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    top: 34rem;
+    color: white;
+    left: 21rem;
+    width: 19px;
+    height: 21px;
+    background-color: black;
+    border: 3.1px solid black;
+    border-radius: 50%;
+}
+.foot-icon3{
+    transform: scale(2);
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    top: 34rem;
+    color: white;
+    left: 24rem;
+    width: 19px;
+    height: 21px;
+    background-color: black;
+    border: 3.1px solid black;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:413px){
+    .foot{
+        top: 252rem;
+        height: 65rem;
+    }
+    .foo-img{
+        position: relative;
+        right: 15rem;
+    }
+    .container{
+        position: relative;
+        right: 15.1rem;
+        width: 15rem;
+    }
+    .menu{
+        position: absolute;
+        right: 22rem;
+        top: 15rem;
+    }
+    .upvc{
+        top: 33rem;
+        right: 31.5rem;
+    }
+    .system{
+        top: 17rem;
+        right: 20.5rem;
+    }
+    .contact{
+        top: 22rem;
+        right: 31rem;
+    }
+
+    .foot-icon1{
+        position: relative;
+        top: 32rem;
+        left: -43rem;
+    }
+    .foot-icon2{
+        position: relative;
+        top: 32rem;
+        left: -41rem;
+    }
+    .foot-icon3{
+        position: relative;
+        top: 32rem;
+        left: -39rem;
+    }
+}
