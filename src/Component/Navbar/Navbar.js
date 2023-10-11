@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar bg-light">
+      <nav className="navbar bg-light fixed-top">
   <div className="container-fluid">
     {/* <href className="navbar-brand">Navbar</href> */}
     <img src="...public/a_image/1.png" alt="" sizes=""  />

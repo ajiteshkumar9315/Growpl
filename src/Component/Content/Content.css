@@ -1,4 +1,8 @@
 .img1{
-    width: 300px;
+    width: 303px;
     height: 300px;
+}
+
+.con_box{
+    background-color: rgb(126, 152, 136);
 }

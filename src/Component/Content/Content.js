@@ -4,17 +4,17 @@ import './Content.css'
 const Content = () => {
   return (
     <>
-      <div class="container">
+      <div class="container p-5">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active ">
-          <img src="../img/plant2.webp" class="d-block w-100" alt="..." height="500px" width="500px"/><h3 class=" imag">Plants</h3>
+          <img src="../img/plant2.webp" class="d-block w-100" alt="..." height="500px" width="500px"/>
         </div>
         <div class="carousel-item">
-          <img src="../img/Pots/pot.jpg" class="d-block w-100" alt="..." height="500px" width="500px"/><h3 class="imag">Flowerpot</h3>
+          <img src="../img/Pots/pot.jpg" class="d-block w-100" alt="..." height="500px" width="500px"/>
         </div>
         <div class="carousel-item">
-          <img src="../img/Fertilizers/f1.jpg" class="d-block w-100" alt="..." height="500px" width="500px"/><h3 class="imag">Fertilizers/pesticide</h3>
+          <img src="../img/Fertilizers/f1.jpg" class="d-block w-100" alt="..." height="500px" width="500px"/>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -29,15 +29,18 @@ const Content = () => {
   </div>
 
     {/* section2 */}
-      <div className="container m-5 p-3">
-        <h3>Hot Selling Plants & Flowers</h3>
+      <div className="container con_box m-5 p-3">
+        <h3 className="pb-3">Hot Selling Plants & Flowers</h3>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
       <img src="../img/Flowers/marigold.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">Marigold(ganda)</h5>
+        {/* <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+        <p> $  150</p>
+        <button>Add to List</button>
+        <button type="submit">Buy</button>
       </div>
     </div>
   </div>
@@ -72,8 +75,8 @@ const Content = () => {
     </div>
 
     {/* section2.2 */}
-    <div className="container m-5 p-3">
-        <h3>Plants</h3>
+    <div className="container con_box m-5 p-3">
+        <h3 className="pb-3">Plants</h3>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
@@ -115,8 +118,8 @@ const Content = () => {
     </div>
 
       {/* section2.3 */}
-      <div className="container m-5 p-3">
-        <h3>Flowers</h3>
+      <div className="container con_box m-5 p-3">
+        <h3 className="pb-3">Flowers</h3>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
@@ -158,8 +161,8 @@ const Content = () => {
     </div>
 
     {/* section2.4 */}
-    <div className="container m-5 p-3">
-        <h3>Decorative Plants</h3>
+    <div className="container con_box m-5 p-3">
+        <h3 className="pb-3">Decorative Plants</h3>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
@@ -200,8 +203,8 @@ const Content = () => {
 </div>
     </div>
     {/* section2.5 */}
-    <div className="container m-5 p-3">
-        <h3>Fertilizers/pesticide</h3>
+    <div className="container con_box m-5 p-3">
+        <h3 className="pb-3">Fertilizers/pesticide</h3>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
@@ -243,8 +246,8 @@ const Content = () => {
     </div>
 
     {/* section2.6 */}
-    <div className="container m-5 p-3">
-        <h3>Flowerpot</h3>
+    <div className="container con_box m-5 p-3">
+        <h3 className="pb-3">Flowerpot</h3>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
