@@ -10,24 +10,31 @@ import Home from './Component/Home';
 import About from './Component/About';
 import Services from './Component/Services';
 import Footer from './Component/Footer/Footer';
+// import RegisterForm from './Component/Register/RegisterForm';
+// import Login from './Backend/Views/Login';
 
 function App() {
   return (
     <>
+    {/* <Navbar/>
+    <Content/>
+    <br />
+    <Footer/> */}
+
     <Router>
       <Navbar/>
       <Routes>
       <Route exact path="/Home" element={<Home />}>
           </Route>
-          <Route exact path="/about" element={<About />}>
+          <Route exact path="/Services" element={<Services />}>
           </Route>
-          <Route exact path="/Services" element={<Services/>}>
+          <Route exact path="/About" element={<About/>}>
           </Route>
       </Routes>
     </Router>
     <Content/>
     <br />
-    <Footer/>
+    <Footer/> 
     </>
   );
 }
@@ -46,4 +53,5 @@ export default App;
 //   }
 
 //  export default App;
+
 

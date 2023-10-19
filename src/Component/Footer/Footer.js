@@ -18,8 +18,8 @@ import './Footer.css'
        
         <ul>
           <li className='mb-4 fw-bold'> Menu</li>
-          <li>Home</li>
-          <li>About US</li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/About">About US</a></li>
           <li>Advantages</li>
           <li>Blog</li>
           <li>Contact Us</li>
