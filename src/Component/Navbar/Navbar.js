@@ -8,6 +8,10 @@ const Navbar = () => {
     navigate("/RegisterForm");
   }
 
+  function handleClick2(){
+    navigate("/Plants");
+  }
+
   return (
     <div>
       <nav className="navbar bg-light fixed-top">
@@ -28,7 +32,7 @@ const Navbar = () => {
           Products
       </button>
       <ul className="dropdown-menu">
-      <li><a className="dropdown-item" href="Plants">Plants </a></li>
+      <li><a className="dropdown-item" role="button" onClick={handleClick2} href='./google.com'>Plants </a></li>
         <li><a className="dropdown-item" href="/">Flowerpots</a></li>
         <li><a className="dropdown-item" href="/">Fertilizers/pesticide</a></li>
         <li><a className="dropdown-item" href="/">Other Products</a></li>

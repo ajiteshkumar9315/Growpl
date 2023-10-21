@@ -8,9 +8,15 @@ import{
 } from "react-router-dom";
 import Navbar from '../Navbar/Navbar';
 import RegisterForm from '../Register/RegisterForm';
-import Footer from '../Footer/Footer';
+import { useNavigate } from 'react-router-dom'
 
 const Content = () => {
+  // const navigate=useNavigate();
+
+  // function handleClick(){
+  //   navigate("/RegisterForm");
+  // }
+
   return (
     <>
       <div class="container p-5">
@@ -38,16 +44,16 @@ const Content = () => {
   </div>
 
     {/* section2 */}
-    <Router>
+    {/* <Router>
       <Navbar/>
       <Routes>
       <Route exact path="/RegisterForm" element={<RegisterForm />}>
           </Route>
       </Routes>
-      </Router>
+      </Router> */}
       <div className="container con_box m-5 p-3">
         <h3 className="pb-3">Hot Selling Plants & Flowers</h3>
-        <a href="RegisterForm" className="btn btn-outline-success" role="button">See All </a>
+        <a href="/Plants" className="btn btn-outline-success" role="button" >See All </a>
         {/* <Link to="RegisterForm" className="btn btn-outline-success" role="button">See All </Link> */}
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">

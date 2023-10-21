@@ -3,7 +3,7 @@ import Navbar from '../Component/Navbar/Navbar'
 
 const Plants = () => {
   return (
-    <>
+    <div className='Plants'>
       <Navbar/>
       <div>
         {/* section2 */}
@@ -39,7 +39,7 @@ const Plants = () => {
         </div>
       </div>
 
-    </>
+    </div>
   )
 }
 
