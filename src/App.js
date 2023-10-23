@@ -9,9 +9,8 @@ import Content from './Component/Content/Content';
 import Home from './Component/Home';
 import About from './Component/About';
 import Services from './Component/Services';
-import Footer from './Component/Footer/Footer';
-// import RegisterForm from './Component/Register/RegisterForm';
-// import Login from './Backend/Views/Login';
+import RegisterForm from './Component/Register/RegisterForm';
+import Login from './Component/Login/Login';
 
 function App() {
   return (
@@ -24,34 +23,27 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-      <Route exact path="/Home" element={<Home />}>
-          </Route>
-          <Route exact path="/Services" element={<Services />}>
-          </Route>
-          <Route exact path="/About" element={<About/>}>
-          </Route>
+        <Route exact path="/" element={<Content/>}>
+        </Route>
+        <Route exact path="/Login" element={<Login/>}>
+        </Route>
+        <Route exact path="/RegisterForm" element={<RegisterForm/>}>
+        </Route>
+        <Route exact path="/" element={<Home />}>
+        </Route>
+        <Route exact path="/Services" element={<Services />}>
+        </Route>
+        <Route exact path="/About" element={<About/>}>
+        </Route>
       </Routes>
     </Router>
-    <Content/>
+    {/* <Content/>
     <br />
-    <Footer/> 
+    <Footer/>  */}
     </>
   );
 }
 
 export default App;
-
-// import './App.css';
-// import Navbar from './content/Navbar';
-
-// function App() {
-//     return (
-//       <>
-//       <Navbar/>
-//        </>
-//     );
-//   }
-
-//  export default App;
 
 

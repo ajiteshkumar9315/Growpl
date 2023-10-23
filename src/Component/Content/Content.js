@@ -1,14 +1,15 @@
 import React from 'react'
 import './Content.css'
-import{
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
-import Navbar from '../Navbar/Navbar';
-import RegisterForm from '../Register/RegisterForm';
-import { useNavigate } from 'react-router-dom'
+// import{
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+//   Link
+// } from "react-router-dom";
+// import Navbar from '../Navbar/Navbar';
+// import RegisterForm from '../Register/RegisterForm';
+// import { useNavigate } from 'react-router-dom'
+import Footer from '../Footer/Footer';
 
 const Content = () => {
   // const navigate=useNavigate();
@@ -311,6 +312,7 @@ const Content = () => {
   </div>
 </div>
     </div>
+    <Footer/>
     </>
   )
 }
