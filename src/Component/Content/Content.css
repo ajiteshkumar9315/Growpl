@@ -6,3 +6,64 @@
 .con_box{
     background-color: rgb(126, 152, 136);
 }
+
+.con_btn_see1{    
+    position: absolute;
+    right: 158px;
+    top: 41rem;
+}
+
+.con_btn_see2{    
+    position: absolute;
+    right: 158px;
+    top: 78rem;
+}
+
+.con_btn_see3{    
+    position: absolute;
+    right: 158px;
+    top: 114.5rem;
+}
+
+.con_btn_see4{    
+    position: absolute;
+    right: 158px;
+    top: 150.5rem;
+}
+
+.con_btn_see5{    
+    position: absolute;
+    right: 158px;
+    top: 187rem;
+}
+
+.con_btn_see6{    
+    position: absolute;
+    right: 158px;
+    top: 223.5rem;
+}
+
+.con_icon{
+    position: relative;
+    top: 13px;
+    margin: 3px;
+    padding: 5px;
+    border: 2px solid rgb(162, 161, 161);
+}
+
+.con_btn{
+    position: relative;
+    top: 16px;
+    left: 22px;
+    width: 13rem;
+    height: 32px;
+    border: 2px solid green;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/* .con_btn:hover{
+    width: 15rem;
+    height: 32px;
+    cursor: pointer;
+} */

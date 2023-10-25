@@ -1,13 +1,7 @@
 import React from 'react'
 import './Content.css'
-// import{
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-//   Link
-// } from "react-router-dom";
-// import Navbar from '../Navbar/Navbar';
-// import RegisterForm from '../Register/RegisterForm';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark, faIndianRupeeSign, faGreaterThan } from '@fortawesome/free-solid-svg-icons'
 // import { useNavigate } from 'react-router-dom'
 import Footer from '../Footer/Footer';
 
@@ -45,27 +39,19 @@ const Content = () => {
   </div>
 
     {/* section2 */}
-    {/* <Router>
-      <Navbar/>
-      <Routes>
-      <Route exact path="/RegisterForm" element={<RegisterForm />}>
-          </Route>
-      </Routes>
-      </Router> */}
       <div className="container con_box m-5 p-3">
         <h3 className="pb-3">Hot Selling Plants & Flowers</h3>
-        <a href="/Plants" className="btn btn-outline-success" role="button" >See All </a>
-        {/* <Link to="RegisterForm" className="btn btn-outline-success" role="button">See All </Link> */}
+        <button type="button" class="btn con_btn_see1 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
       <img src="../img/Flowers/marigold.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Marigold(ganda)</h5>
-        {/* <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-        <p> $ 150</p>
-        <button>Add to List</button>
-        <button type="submit">Buy</button>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -73,8 +59,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="..\img\Flowers\rose.webp" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a short card.</p>
+      <h5 className="card-title">Rose(Gulab)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -82,8 +71,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Plants/Tulsi.webp" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      <h5 className="card-title">Tulsi(Tulsi)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -91,8 +83,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Plants/cactus.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Cactus(Cactus)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -102,13 +97,17 @@ const Content = () => {
     {/* section2.2 */}
     <div className="container con_box m-5 p-3">
         <h3 className="pb-3">Plants</h3>
+        <button type="button" class="btn con_btn_see2 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
       <img src="../img/Plants/aloevera.webp" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Aloevera(Aloevera)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -116,8 +115,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="..\img\Plants\cactus.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a short card.</p>
+      <h5 className="card-title">Cactus(Cactus)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -125,8 +127,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Plants/kaner.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      <h5 className="card-title">kaner(kaner)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -134,8 +139,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Plants/moneyplant.webp" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">MoneyPlant(MoneyPlant)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -145,13 +153,17 @@ const Content = () => {
       {/* section2.3 */}
       <div className="container con_box m-5 p-3">
         <h3 className="pb-3">Flowers</h3>
+        <button type="button" class="btn con_btn_see3 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
       <img src="../img/Flowers/hibiscus.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -159,8 +171,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="..\img\Flowers\jasmin.webp" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a short card.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -168,8 +183,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Flowers/pansy.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -177,8 +195,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Flowers/marigold.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -188,13 +209,17 @@ const Content = () => {
     {/* section2.4 */}
     <div className="container con_box m-5 p-3">
         <h3 className="pb-3">Decorative Plants</h3>
+        <button type="button" class="btn con_btn_see4 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
       <img src="../img/Plants/pinonpics.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -202,8 +227,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="..\img\Plants\tp3.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a short card.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -211,8 +239,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Plants/moneyplant.webp" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -220,8 +251,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Plant.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -230,13 +264,17 @@ const Content = () => {
     {/* section2.5 */}
     <div className="container con_box m-5 p-3">
         <h3 className="pb-3">Fertilizers/pesticide</h3>
+        <button type="button" class="btn con_btn_see5 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
       <img src="../img/Fertilizers/f1.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -244,8 +282,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Fertilizers/f2.jpeg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a short card.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -253,8 +294,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Fertilizers/f5.jpeg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -262,8 +306,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Fertilizers/f7.jpeg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -273,13 +320,17 @@ const Content = () => {
     {/* section2.6 */}
     <div className="container con_box m-5 p-3">
         <h3 className="pb-3">Flowerpot</h3>
+        <button type="button" class="btn con_btn_see6 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
       <img src="../img/Pots/p4.jpeg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -287,8 +338,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Pots/p5.jpeg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a short card.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -296,8 +350,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Pots/p2.jpeg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
@@ -305,8 +362,11 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Pots/p3.jpeg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">Marigold(ganda)</h5>
+        <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
+        {/* <button>Add to List</button> */}
+        <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
+        <button type="submit" className='con_btn'>Buy</button>
       </div>
     </div>
   </div>
