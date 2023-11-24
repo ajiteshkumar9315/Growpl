@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-left: 17rem;
-    margin-top: 40px;
+    margin-left: 5rem;
+    margin-top: 35px;
 }
 
 .foo-right{
@@ -39,14 +39,24 @@ border-radius: 50%;
     color: white;
 }
 
-.upvc{
+.foo-plant{
     position: relative;
     right: 37rem;
     color: white;
     top: -11.5rem;
 }
 
-.system{
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: green;
+    font-size: medium;
+}
+
+.foo-other{
     position: relative;
     right: 22rem;
     color: white;
@@ -58,11 +68,12 @@ border-radius: 50%;
     position: relative;
     right: 3rem;
     color: white;
-    top: -37.5rem;
+    top: -43rem;
 }
 
 ul{
     list-style-type: none;
+    
 }
 
 .foot-icon1{
@@ -72,7 +83,7 @@ ul{
     position: absolute;
     top: 34rem;
     color: white;
-    left: 18rem;
+    left: 6rem;
     width: 19px;
     height: 19px;
     background-color: black;
@@ -87,7 +98,7 @@ ul{
     position: absolute;
     top: 34rem;
     color: white;
-    left: 21rem;
+    left: 10rem;
     width: 19px;
     height: 21px;
     background-color: black;
@@ -101,12 +112,24 @@ ul{
     position: absolute;
     top: 34rem;
     color: white;
-    left: 24rem;
+    left: 14rem;
     width: 19px;
     height: 21px;
     background-color: black;
     border: 3.1px solid black;
     border-radius: 50%;
+}
+
+.foot-icon1:hover{
+    color: rgb(0, 132, 255);
+}
+
+.foot-icon2:hover{
+    color: rgb(255, 0, 247);
+}
+
+.foot-icon3:hover{
+    color: rgb(0, 132, 255);
 }
 
 @media screen and (max-width:413px){

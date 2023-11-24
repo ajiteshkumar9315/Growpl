@@ -37,10 +37,11 @@ const Content = () => {
       </button>
     </div>
   </div>
+  <br />
 
     {/* section2 */}
-      <div className="container con_box m-5 p-3">
-        <h3 className="pb-3">Hot Selling Plants & Flowers</h3>
+      <div className="container con_box m-6 p-3">
+        <h3 className="pb-4">Hot Selling Plants & Flowers</h3>
         <button type="button" class="btn con_btn_see1 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
@@ -93,10 +94,12 @@ const Content = () => {
   </div>
 </div>
     </div>
+    <br />
+    <br />
 
     {/* section2.2 */}
-    <div className="container con_box m-5 p-3">
-        <h3 className="pb-3">Plants</h3>
+    <div className="container con_box m-6 p-3">
+        <h3 className="pb-4">Plants</h3>
         <button type="button" class="btn con_btn_see2 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
@@ -149,17 +152,19 @@ const Content = () => {
   </div>
 </div>
     </div>
+    <br />
+    <br />
 
       {/* section2.3 */}
-      <div className="container con_box m-5 p-3">
-        <h3 className="pb-3">Flowers</h3>
+      <div className="container con_box m-6 p-3">
+        <h3 className="pb-4">Flowers</h3>
         <button type="button" class="btn con_btn_see3 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
       <img src="../img/Flowers/hibiscus.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-      <h5 className="card-title">Marigold(ganda)</h5>
+      <h5 className="card-title">Hibiscus(Adhul)</h5>
         <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
         {/* <button>Add to List</button> */}
         <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
@@ -171,7 +176,7 @@ const Content = () => {
     <div className="card h-100">
       <img src="..\img\Flowers\jasmin.webp" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-      <h5 className="card-title">Marigold(ganda)</h5>
+      <h5 className="card-title">Jasmin(Chameli)</h5>
         <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
         {/* <button>Add to List</button> */}
         <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
@@ -183,7 +188,7 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Flowers/pansy.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-      <h5 className="card-title">Marigold(ganda)</h5>
+      <h5 className="card-title">Pansy(Pansy)</h5>
         <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
         {/* <button>Add to List</button> */}
         <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
@@ -205,17 +210,19 @@ const Content = () => {
   </div>
 </div>
     </div>
+    <br />
+    <br />
 
     {/* section2.4 */}
-    <div className="container con_box m-5 p-3">
-        <h3 className="pb-3">Decorative Plants</h3>
+    <div className="container con_box m-6 p-3">
+        <h3 className="pb-4">Decorative Plants</h3>
         <button type="button" class="btn con_btn_see4 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
     <div className="card h-100">
       <img src="../img/Plants/pinonpics.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-      <h5 className="card-title">Marigold(ganda)</h5>
+      <h5 className="card-title">Pinonpics(Pinonpics)</h5>
         <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
         {/* <button>Add to List</button> */}
         <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
@@ -227,7 +234,7 @@ const Content = () => {
     <div className="card h-100">
       <img src="..\img\Plants\tp3.jpg" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-      <h5 className="card-title">Marigold(ganda)</h5>
+      <h5 className="card-title">Pam(Pam)</h5>
         <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
         {/* <button>Add to List</button> */}
         <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
@@ -239,7 +246,7 @@ const Content = () => {
     <div className="card h-100">
       <img src="../img/Plants/moneyplant.webp" className="card-img-top img1" alt="..."/>
       <div className="card-body">
-      <h5 className="card-title">Marigold(ganda)</h5>
+      <h5 className="card-title">Moneyplant(Moneyplant)</h5>
         <p><FontAwesomeIcon icon={faIndianRupeeSign} size="sm" style={{color: "#141415",}} />  150</p>
         {/* <button>Add to List</button> */}
         <FontAwesomeIcon icon={faBookmark} pull="left" size="lg"  className='con_icon'/>
@@ -261,9 +268,12 @@ const Content = () => {
   </div>
 </div>
     </div>
+    <br />
+    <br />
+
     {/* section2.5 */}
-    <div className="container con_box m-5 p-3">
-        <h3 className="pb-3">Fertilizers/pesticide</h3>
+    <div className="container con_box m-6 p-3">
+        <h3 className="pb-4">Fertilizers/pesticide</h3>
         <button type="button" class="btn con_btn_see5 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
@@ -316,10 +326,12 @@ const Content = () => {
   </div>
 </div>
     </div>
+    <br />
+    <br />
 
     {/* section2.6 */}
-    <div className="container con_box m-5 p-3">
-        <h3 className="pb-3">Flowerpot</h3>
+    <div className="container con_box m-6 p-3">
+        <h3 className="pb-4">Flowerpot</h3>
         <button type="button" class="btn con_btn_see6 fw-bold">See all <FontAwesomeIcon icon={faGreaterThan} size="sm" style={{color: "#030303",}} /></button>
         <div className="row row-cols-1 row-cols-md-4 g-4">
   <div className="col">
@@ -372,6 +384,8 @@ const Content = () => {
   </div>
 </div>
     </div>
+    <br />
+    <br />
     <Footer/>
     </>
   )
